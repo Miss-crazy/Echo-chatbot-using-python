@@ -1,0 +1,9 @@
+#Echo chatbot
+print("Hello!You can talk as much as you want...enter 'quit' to exit")
+
+while True:
+    user = input("You: ")
+    print("Bot :",user)
+    
+    if user=="quit":
+        break
